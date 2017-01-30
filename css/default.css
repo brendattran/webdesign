@@ -1,0 +1,73 @@
+/* Embedded Fonts */
+
+@font-face {
+	font-family: NeutraTextBook;
+	src:url(../fonts/neutratextbook.otf);
+}
+
+
+
+
+/* Container Items */
+
+html,body {
+	height: 100%;
+	width:100%;
+}
+
+#cover {
+	width: 100%;
+	height: 100%;
+	background: url("http://static2.politico.com/dims4/default/ed9b40c/2147483647/resize/1160x%3E/quality/90/?url=http%3A%2F%2Fstatic.politico.com%2F3d%2F69%2F5fe275f2494992992da50b1c86ed%2Fbarack-obama-gty-629.jpg") no-repeat center fixed;
+	-webkit-background-size: cover;
+
+}
+
+#container {
+
+}
+
+#container2 {
+	height: 400px;
+	width:400px;
+	position: absolute;
+	top:850px;
+	right:50px;
+}
+
+/* Paragraph Styles */
+
+.title {
+	font-family: neutratextbook;
+	font-weight: bold;
+	font-size:100px;
+	color: gold;
+	letter-spacing:5px;
+	padding-top: 200px;
+	padding-left: 20px;
+	text-rendering: optimizeLegibility;
+}
+
+.author {
+
+}
+
+
+.text {
+	font-family: courier new;
+	width:60%;
+	color: black;
+	text-align:right;
+	text-indent:10px;
+
+}
+
+.text2 {
+	font-family: arial;
+	width:100%;
+}
+
+.italic {
+	font-style: italic;
+	color:pink;
+}
